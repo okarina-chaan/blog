@@ -1,24 +1,25 @@
 # README
+# Portfolio Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Railsの練習用に作っているポートフォリオ兼ブログアプリ。  
+プロフィール / 記事（Markdown対応） / ポートフォリオをまとめられる予定。  
+UIは daisyUI を使ってみる。
 
-Things you may want to cover:
+## やりたいこと（ToDo）
+- [ ] プロフィールページ
+- [ ] 記事（CRUD, Markdown）
+- [ ] ポートフォリオ
+- [ ] ナビゲーションバー
+- [ ] デプロイ(Render)
 
-* Ruby version
+## 使用技術（予定）
+- Ruby on Rails 7
+- PostgreSQL
+- Tailwind CSS + daisyUI
+- Redcarpet (Markdown)
+- koyebでデプロイ予定 
 
-* System dependencies
+## メモ
+- 初めてのデプロイを目標
+- 機能ごとにGitHub Issueで管理
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
