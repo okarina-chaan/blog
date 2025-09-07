@@ -100,4 +100,4 @@ production:
     database: myapp_production_cable
     migrations_paths: db/cable_migrate
   adapter: postgresql
-  url: koyeb_postgresql_url
+  url: postgres://koyeb-adm:npg_9oUGLBPqze3l@ep-orange-sun-a4ht4vc8.us-east-1.pg.koyeb.app/koyebdb
