@@ -99,3 +99,5 @@ production:
     <<: *primary_production
     database: myapp_production_cable
     migrations_paths: db/cable_migrate
+  adapter: postgresql
+  url: koyeb_postgresql_url
