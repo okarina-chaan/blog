@@ -1,0 +1,13 @@
+<header class="bg-white shadow-md">
+  <div class="container mx-auto flex justify-between items-center p-4">
+    <h1 class="text-2xl font-bold text-[#676f74]">
+      <%= link_to "My Blog", root_path %>
+    </h1>
+    <nav class="flex gap-6">
+      <%= link_to "記事一覧", posts_path, class: "hover:text-[#f99695]" %>
+      <%= link_to "プロフィール", profile_path, class: "hover:text-[#f99695]" %>
+      <%= link_to "ポートフォリオ", portfolios_path, class: "hover:text-[#f99695]" %>
+    </nav>
+  </div>
+</header>
+

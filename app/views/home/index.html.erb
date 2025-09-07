@@ -1,43 +1,9 @@
-<main>
-  <section class="hero min-h-screen" style="background-color: #8edae5;">
-    <div class="hero-content text-center">
-      <div class="max-w-md">
-        <h1 class="text-5xl font-bold" style="color: #676f74;">プログラミングの旅へようこそ</h1>
-        <p class="py-6" style="color: #676f74;">学習の記録やポートフォリオをまとめています。一緒に成長していきましょう！</p>
-        <button class="btn btn-primary" style="background-color: #f99695; border-color: #f99695; color: white;">最新記事を見る</button>
-      </div>
-    </div>
-  </section>
-
-  <section class="py-12 bg-base-200">
-    <div class="container mx-auto px-4">
-      <h2 class="text-3xl font-bold text-center mb-8" style="color: #676f74;">最新の記事</h2>
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <div class="card bg-base-100 shadow-xl">
-          <figure><img src="https://via.placeholder.com/400x200" alt="placeholder" /></figure>
-          <div class="card-body">
-            <h3 class="card-title" style="color: #676f74;">初めてのRailsアプリ開発</h3>
-            <p>Railsでブログを作成するステップをまとめました。</p>
-            <div class="card-actions justify-end">
-              <div class="badge badge-outline" style="background-color: #F0E68C;">Ruby on Rails</div>
-            </div>
-          </div>
-        </div>
-        </div>
-    </div>
-  </section>
-
-  <section class="py-12">
-    <div class="container mx-auto px-4 flex flex-col items-center">
-      <div class="avatar">
-        <div class="w-24 rounded-full">
-          <img src="https://via.placeholder.com/150" alt="プロフィール画像" />
-        </div>
-      </div>
-      <h2 class="text-2xl font-bold mt-4" style="color: #676f74;">あなたの名前</h2>
-      <p class="text-center mt-2 max-w-lg">
-        プログラミング学習中のエンジニアの卵です。主にRuby on Railsを使って開発をしています。このブログでは、学習の過程で得た知識や経験を共有していきます。
-      </p>
-    </div>
-  </section>
-</main>
+<div class="top-page">
+  <h2>ようこそ！わたしのブログへ</h2>
+  <p>プログラミング学習を仲間とシェアする場所です。</p>
+  <div class="flex justify-center gap-6">
+    <%= link_to "投稿一覧へ", posts_path, class: "btn bg-[#f99695] text-white hover:bg-[#676f74]" %>
+    <%= link_to "プロフィールへ", profile_path, class: "btn bg-[#F0E68C] text-[#676f74] hover:bg-[#f99695]" %>
+    <%= link_to "ポートフォリオへ", portfolios_path, class: "btn bg-[#8edae5] text-[#676f74] hover:bg-[#f99695]" %>
+  </div>
+</div>
