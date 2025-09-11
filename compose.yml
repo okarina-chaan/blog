@@ -4,7 +4,9 @@ services:
     restart: always
     environment:
       TZ: Asia/Tokyo
+      POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
+      POSTGRES_DB: myapp_development  # 追加
     volumes:
       - postgresql_data:/var/lib/postgresql/data
     ports:
@@ -27,6 +29,7 @@ services:
       - node_modules:/myapp/node_modules
     environment:
       TZ: Asia/Tokyo
+      DATABASE_URL: postgresql://postgres:password@db:5432/myapp_development
     ports:
       - "3000:3000"
     depends_on:
