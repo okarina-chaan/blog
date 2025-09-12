@@ -9,6 +9,26 @@
   },
   "dependencies": {
     "@hotwired/stimulus": "^3.2.2",
-    "@hotwired/turbo-rails": "^8.0.16"
-  }
+    "@hotwired/turbo-rails": "^8.0.16",
+    "daisyui": "^5.1.10"
+  },
+  "version": "1.0.0",
+  "description": "Railsの練習用に作っているポートフォリオ兼ブログアプリ。   プロフィール / 記事（Markdown対応） / ポートフォリオをまとめられる予定。   UIは daisyUI を使ってみる。",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okarina-chaan/blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/okarina-chaan/blog/issues"
+  },
+  "homepage": "https://github.com/okarina-chaan/blog#readme"
 }
